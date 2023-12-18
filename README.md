@@ -20,7 +20,7 @@ if you get any error on the instalation, please let me know and I will try to fi
 
 ## Tip
 
-If you want to look the app, but you don't want install all the project, you can download the apk from here: [APK]<https://drive.google.com/file/d/1hFiVpDRK5W2ZbgC90ejAsZfLJlrykVan/view?usp=share_link>
+If you want to look the app, but you don't want install all the project, you can download the apk from here: [APK]<https://drive.google.com/file/d/1JTSW9dIej6u8QBl9OWkzFnefsXpCYMxN/view?usp=sharing>
 
 ## Contact me
 
