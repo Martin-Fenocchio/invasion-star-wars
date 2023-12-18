@@ -16,7 +16,6 @@ class DashboardCubit extends Cubit<DashboardState> {
   DashboardCubit() : super(const DashboardState.init());
 
   Future<void> getCharacters() async {
-    print('getCharacters');
     try {
       emit(state.copyWith(isLoading: true));
       final List<Character> characters =
@@ -26,9 +25,8 @@ class DashboardCubit extends Cubit<DashboardState> {
           characters: [...state.characters, ...characters],
           isLoading: false,
           page: state.page + 1));
-    } catch (e, a) {
-      print(e);
-      print(a);
+    } catch (e) {
+      //
     }
   }
 
@@ -40,7 +38,7 @@ class DashboardCubit extends Cubit<DashboardState> {
       emit(state.copyWith(
           starships: data[0], vehicles: data[1], isLoading: false));
     } catch (e) {
-      print(e);
+      //
     }
   }
 
@@ -65,7 +63,7 @@ class DashboardCubit extends Cubit<DashboardState> {
       toast(text: 'Reporte enviado con éxito', context: context);
       Navigator.pop(context);
     } catch (e) {
-      print(e);
+      //
     } finally {
       emit(state.copyWith(isLoadingReport: false));
     }
@@ -82,9 +80,8 @@ class DashboardCubit extends Cubit<DashboardState> {
           characters: [...state.characters, ...characters],
           isLoadingMore: false,
           page: state.page + 1));
-    } catch (e, a) {
-      print(e);
-      print(a);
+    } catch (e) {
+      //
     }
   }
 

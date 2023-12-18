@@ -19,9 +19,8 @@ class StarWarsService {
       }
 
       return payload;
-    } catch (e, a) {
-      print(e);
-      print(a);
+    } catch (e) {
+      //
       return [];
     }
   }
@@ -66,7 +65,7 @@ class StarWarsService {
 
       return [ships, vehicles];
     } catch (e) {
-      print(e);
+      //
       return [];
     }
   }
@@ -79,7 +78,7 @@ class StarWarsService {
         "character_name": character.name
       });
     } catch (e) {
-      print(e);
+      //
     }
   }
 }

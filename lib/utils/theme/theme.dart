@@ -74,20 +74,15 @@ Future<void> setUISystemColor({
   Color? colorBottom,
   bool animate = true,
 }) async {
-  print('a');
   await FlutterStatusbarcolor.setStatusBarColor(color, animate: animate);
-  print('b');
 
   if (useWhiteForeground(color)) {
     await FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
   } else {
     await FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
-    //await FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
   }
 
-  print('c');
   if (onlyTop) return;
-  print('d');
 
   await FlutterStatusbarcolor.setNavigationBarColor(
     colorBottom ?? color,
