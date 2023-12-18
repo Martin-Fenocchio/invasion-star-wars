@@ -1,0 +1,69 @@
+name: starwars
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  dio: ^5.4.0
+  equatable: ^2.0.5
+  flutter_dotenv: ^5.1.0
+  flutter_statusbarcolor_ns: ^0.5.0
+  google_fonts: ^6.1.0
+  oktoast: ^3.4.0
+  responsive_sizer: ^3.2.0
+  flutter_native_splash: ^2.3.8
+  flutter_launcher_icons: ^0.13.1
+  flutter_animate: ^4.3.0
+  flutter_svg: ^2.0.9
+  skeletons: ^0.0.3
+  universal_picture: ^1.0.0
+  neon_widgets: ^2.0.0
+  light_modal_bottom_sheet: ^0.0.05
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: STJEDISE
+      fonts:
+        - asset: assets/fonts/starjout/STJEDISE.ttf
+    - family: Open_Sans
+      fonts:
+        - asset: assets/fonts/Open_Sans/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Open_Sans/OpenSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Open_Sans/OpenSans-Light.ttf
+          weight: 300
+
+flutter_launcher_icons:
+  image_path: assets/images/appicon.png
+  ios: true
+  android: true
+
+flutter_native_splash:
+  color: "#000000"
+  fullscreen: true
+  android: true
+  ios: true
+  image: assets/images/transparent.png
+  android_12:
+    image: assets/images/transparent.png
+    color: "#000000"
