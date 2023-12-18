@@ -8,14 +8,15 @@
 
 ## Notes
 
-- I used the [PokeApi](https://pokeapi.co/) to get the data.
+- I used the [SWAPI](https://swapi.dev/api/people/) to get the data.
 - I used bloc & cubits to manage the state of the app. But I would be able to use Provider, or simple setState
-- I did some things useless for a small project, but it were for demostrate my skills.
+- I did some organization things useless for a small project, but it were for demostrate my skills.
 - There are some things missed like .env but that I think that are not necessary for this demo project.
+- I would be able to use hive to persist the reported characters but I haven't time to do it for my current job :(
 
 ## If there is any problem, please let me know
 
-I often have problems with kotlin and dart sdk versions, so if you get any error on the instalation, please let me know and I will try to fix it as soon as possible! :D
+if you get any error on the instalation, please let me know and I will try to fix it as soon as possible! :D
 
 ## Tip
 
