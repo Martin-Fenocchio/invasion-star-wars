@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         child: ResponsiveSizer(
           builder: (context, orientation, screenType) {
             return MaterialApp(
-              title: 'Pokédex',
+              title: 'Star Wars Invasion',
               theme: ThemeConfig().getTheme(),
               routes: getRoutes(),
               initialRoute: RoutesList.splash,
